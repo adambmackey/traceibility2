@@ -8,3 +8,5 @@ const sayHi = () => {
 }
 
 
+let btn = document.querySelector('#dude')
+btn.addEventListener('click', sayHi)
